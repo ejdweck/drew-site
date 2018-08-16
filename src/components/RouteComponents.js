@@ -281,7 +281,17 @@ export const Boat = () => (
 
 export const Reports = () => (
   <div>
-    <h2>Reports</h2>
+    <Grid>
+      <Row>
+        <Col xs={12} md={6}>
+          <div className='reports-panel'>
+            <h2 className='reports-title-text'>Reports</h2>
+            <hr />
+            <h3>Coming Soon</h3>
+          </div>
+        </Col>
+      </Row>
+    </Grid>
   </div>
 );
 
@@ -326,7 +336,22 @@ export const Policies = () => (
 
 export const Contact = () => (
   <div>
-    <h2>Contact</h2>
+    <Grid>
+        <Row>
+          <Col xs={12} md={6}>
+            <div className='contact-panel'>
+              <h2 className='contact-title-text'>Contact</h2>
+              <hr />
+              <h3>Phone: 914-563-2743</h3>
+              <h3>Email: captain@magictouchcharters.com</h3>
+              <hr />
+              <h3>Magic Touch Fishing, Inc.</h3>
+              <h3>242 South Water Street</h3>
+              <h3>Greenwich, Ct 06830</h3>
+            </div>
+          </Col>
+        </Row>
+      </Grid>
   </div>
 );
 export const Rates = () => (
